@@ -15,6 +15,7 @@ public class Paciente {
     private String cpf;
     private int idade;
     
+    // construtor
     public Paciente(String nome, String telefone, String sintomas, String cpf, int idade){
         this.nome = nome;
         this.telefone = telefone;
@@ -23,6 +24,7 @@ public class Paciente {
         this.idade = idade;
     };
     
+    // gets
     public String getNome(){
         return nome;
     }
