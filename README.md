@@ -2,9 +2,9 @@
 
 Equipe: 
     Luciano Sena Ribeiro,
-    Caio,
+    Caio portugal de oliveira,
     Allan Lucas De Jesus Nascimento,
-    Lucas,
+    Lucas Borges dos Santos,
     Lucas,
 
 # Documentação da Classe Principal
