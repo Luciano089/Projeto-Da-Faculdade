@@ -1,27 +1,27 @@
 # Projeto-Da-Faculdade
 
 Equipe: 
-    Luciano Sena Ribeiro
-    Caio
-    Allan Lucas De Jesus Nascimento
-    Lucas
-    Lucas
+    Luciano Sena Ribeiro,
+    Caio,
+    Allan Lucas De Jesus Nascimento,
+    Lucas,
+    Lucas,
 
 # Documentação da Classe Principal
 
 ## Descrição
 
-Esta é a classe principal do sistema de gerenciamento de pacientes. Ela contém o método `main` que inicializa o programa e apresenta o menu de opções ao usuário. O sistema permite cadastrar, listar e buscar pacientes.
+Essa é a classe principal do  nosso sistema de gerenciamento de pacientes. Ela contém o método `main` que inicializa o programa e apresenta o menu de opções ao usuário. O sistema permite cadastrar, listar e buscar pacientes através do atributo cpf.
 
 ## Atributos
 
-- **pacientes**: `ArrayList<Paciente>` - Lista que armazena os objetos Paciente.
+- **pacientes**: `ArrayList<Paciente>` - Lista que armazena os Pacientes.
 
 ## Métodos
 
 ### `main`
 
-Inicializa o programa, apresenta o menu e executa as opções escolhidas pelo usuário.
+Inicia o programa, apresenta o menu e executa as opções escolhidas pelo usuário.
 
 ### `exibirMenu`
 
@@ -36,14 +36,14 @@ Permite cadastrar um novo paciente.
 
 ### `buscarPaciente`
 
-Permite buscar um paciente pelo CPF e exibir seus detalhes.
+Permite buscar um paciente pelo CPF.
 
 - **Parâmetros**: 
   - `scanner`: `Scanner` - Scanner para leitura do CPF do paciente.
 
 ### `cadastrarObjetosIniciais`
 
-Cadastra automaticamente pacientes iniciais para testes.
+Cadastra automaticamente 7 pacientes iniciais para os testes.
 
 ### `listarPacientes`
 
